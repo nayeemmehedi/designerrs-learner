@@ -1,0 +1,77 @@
+@media only screen and (max-width:  768px){
+    .courseMaterial {
+        display: block !important;
+    }
+    .middleBar {
+       font-size: 14px !important;
+
+    }
+
+    .cursors {
+        padding: 2px  !important;
+    }
+}
+@media only screen and (max-width:  992px) {
+    .courseMaterial {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+  .courseMaterial .additon {
+      display: flex;
+   
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+   .courseMaterial .additon {
+   
+       display: flex !important;
+       align-items: flex-start !important;
+   }
+   .courseMaterial .Attended {
+       margin: 0px !important;
+   }
+
+   .courseMaterial .cancleSessionCalender {
+       margin-top: 18px !important;
+   }
+
+   .checkClander img {
+    width: 24px !important;
+    margin-left: 0px !important;
+    cursor: pointer !important;
+   }
+   .cursors {
+    padding: 0px 10px !important;
+}
+}
+
+@media only screen and (min-width:  993px){
+    .courseMaterial .additon img {
+       width: 24px !important;
+       height: 24px !important;
+       padding: 0px !important;
+    }
+    .courseMaterial .additon {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .topMain {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+   
+  .checkClander img {
+   width: 24px !important;
+   margin-left:100px !important;
+   cursor: pointer !important;
+  }
+
+  .cursors {
+      padding: 0px 20px !important;
+  }
+    
+}
+

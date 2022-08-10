@@ -1,0 +1,9 @@
+
+export const GET_MENTOR = "GET_MENTOR";
+
+export const GET_MENTOR_DATA = "GET_MENTOR_DATA";
+
+export const GET_MENTOR_API_ERROR = "GET_MENTOR_API_ERROR";
+export const GET_MENTOR_DATA_DETAILS = "GET_MENTOR_DATA_DETAILS";
+export const FILTEER_DATA = "FILTEER_DATA";
+

@@ -1,0 +1,106 @@
+.accordion-button:not(.collapsed) {
+  color: #111;
+  background-color: #fff;
+  border-left: 3px solid #e23d42 !important;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../Assets/Images/course/details/down_arrow.svg") !important;
+  transform: rotate(-180deg) !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../../Assets/Images/course/details/down_arrow.svg") !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button {
+  font-size: 14px !important;
+}
+
+
+
+
+// ====================
+[type=button]:not(:disabled) {
+  color : #616161
+}
+.collapsBtn {
+  margin-right: 10px;
+  padding: 7px 12px;
+}
+.accordion-buttons:not(.collapsed) {
+  color: #d61818;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  
+  .collapsBtn {
+    
+      
+      
+      color: #fff;
+      border-radius: 50%;
+      background-color: #CD2026,
+    
+  }
+  
+  
+}
+
+
+.accordion-buttons:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.accordion-items {
+  background-color: transparent !important;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.accordion-buttons:not(.collapsed)::after {
+  background-image: url("../../Assets/Images/course/details/down_arrow.svg") !important;
+  transform: rotate(-180deg) !important;
+}
+
+.accordion-buttons::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../../Assets/Images/course/details/down_arrow.svg") !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-buttons {
+  font-size: 14px !important;
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  text-align: start;
+}
+

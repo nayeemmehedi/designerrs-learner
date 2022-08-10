@@ -1,0 +1,1 @@
+export const SINGLE_COURSE = "SINGLE_COURSE";

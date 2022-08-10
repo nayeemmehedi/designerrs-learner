@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+    image: adminedal/designerrs-frontend:prod
+    ports:
+      - "3000:3000"

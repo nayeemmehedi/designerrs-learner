@@ -1,0 +1,40 @@
+
+.child-skills{
+    padding: 20px;
+    border: 2px solid red;
+   
+    min-height: 200px;
+    width: auto;
+    /* overflow: scroll; */
+}
+
+
+
+.word-break {
+  word-wrap: break-word !important;
+}
+.gg {
+  width: 80%;
+}
+
+.button-size-control {
+  border: 1px solid #c5c5c5 !important;
+  background: white !important;
+  border-radius: 0 !important;
+  margin-top: 35px !important;
+}
+
+#skill-main {
+  width: 80%;
+  min-height: 200px;
+  border: 1px solid #7D7D7D;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skill-main div {
+  width: fit-content;
+  height: 50px;
+}
+
+

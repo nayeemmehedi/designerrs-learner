@@ -1,0 +1,7 @@
+
+
+export const GET_FEEDBACK = "GET_FEEDBACK";
+
+export const GET_FEEDBACK_DATA = "GET_FEEDBACK_DATA";
+
+export const GET_FEEDBACK_API_ERROR = "GET_FEEDBACK_API_ERROR";

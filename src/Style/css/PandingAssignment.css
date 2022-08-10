@@ -1,0 +1,155 @@
+.weekList::after {
+   content: "";
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 2px !important;
+   background-color: red!important;
+   border: 5px solid red!important;
+}
+
+
+.imgSectionOfMentorPandingAssinment {
+    
+    margin-right: 367px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.pSessionName {
+    font-size: 20px ;
+}
+.pAssignmentTitle {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+.filterTop  {
+    display: flex !important;
+    justify-content: space-between;
+}
+.filterBody {
+    display: flex !important;
+}
+@media only screen and (max-width: 1200px) {
+    .filterTop {
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .pandingFilterSection {
+        width: 30% !important;
+    }
+    .pAssignmentTitle {
+        font-size: 18px !important;
+        font-weight: 500;
+    }
+    .pImg {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+   
+    .headlinePandingAssignment {
+       font-size: 22px;
+    }
+    .pandingAssignment .d-flex:nth-child(1) {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+
+   
+    .headlinePandingAssignment {
+       font-size: 22px;
+    }
+    .pSessionName {
+        font-size: 16px !important;
+    }
+    
+    .pAssignmentTitle {
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+    .pImg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .weekChart{
+           width: 40% !important;
+    }
+  .headlinePandingAssignment {
+      font-size: 22px !important;
+  }
+  .pandingFilterSection {
+    width: 40% !important;
+}
+.sessionStatus {
+    font-size: 14px !important;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .weekChart{
+           width: 70% !important;
+    }
+    .headlinePandingAssignment {
+        font-size: 20px !important;
+    }
+    .pandingFilterSection {
+        width: 50% !important;
+    }
+
+    .pAssignmentTitle {
+        font-size: 15px !important;
+        font-weight: 500;
+    }
+
+    .pImg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .sessionStatus {
+        font-size: 16px !important;
+    }
+
+}
+
+@media only screen and (max-width: 468px) {
+
+    .weekChart{
+           width: 70% !important;
+    }
+    .headlinePandingAssignment {
+        font-size: 18px !important;
+    }
+    .pandingAssignmetfilterText {
+        font-size: 16px !important;
+    }
+
+    .pandingFilterSection {
+        width: 70% !important;
+    }
+    .pAssignmentTitle {
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+    .sessionStatus {
+        font-size: 16px !important;
+    }
+}

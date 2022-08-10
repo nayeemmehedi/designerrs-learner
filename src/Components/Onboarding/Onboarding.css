@@ -1,0 +1,152 @@
+.pip {
+  height: 25px;
+  width: 3px;
+  background-color: rgb(209, 205, 205);
+  margin-left: 20px;
+}
+
+.whiteColor {
+  background: #ffffff;
+}
+
+.OtherColor {
+  background: #fafafa;
+}
+
+.ontherbtn {
+  height: 40px;
+  width: 60px;
+  border: 1px solid #a8a8a8;
+}
+
+.submitPayment {
+  height: 40px;
+  background: #b2b2b2;
+  border: 1px solid #a8a8a8;
+  color: white;
+}
+
+.backBtn {
+  height: 75px;
+  width: 70%;
+}
+
+.btnLearner {
+  width: 320px;
+  height: 45px;
+
+  font-size: 14px;
+}
+
+.child2 {
+  height: 156px;
+  border-left: 4px solid red;
+}
+
+.divbox {
+  height: 14px;
+  width: 14px;
+}
+
+.cont {
+  background: #ffffff;
+  height: 160px;
+  width: 1056px;
+}
+
+.grayColor {
+  background-color: #d7d7d7;
+  margin-top: 3px;
+  /* padding-right: 3px; */
+}
+
+.heightWidth {
+  height: 14px;
+  width: 14px;
+  background-color: green;
+}
+
+.heightWidthborder {
+  height: 14px;
+  width: 14px;
+  border: 2px solid green;
+  background-color: white;
+}
+
+.heightWidthUnder {
+  height: 9px;
+  width: 9px;
+  margin: 0.5px;
+  background-color: green;
+}
+
+.heightWidth1 {
+  height: 14px;
+  width: 14px;
+}
+
+.selectProblem {
+  height: 595px;
+  width: 1056px;
+}
+
+.joinCom {
+  width: 350px;
+  height: 40px;
+  border-radius: 0px !important;
+}
+
+.topMargin {
+  margin-top: 180px;
+}
+
+.topMargin2 {
+  margin-top: 110px;
+}
+
+.topMargin3 {
+  padding-top: 170px;
+}
+
+/* download file */
+
+.downloadmain {
+  height: 112px;
+  width: 100%;
+}
+
+.backbtnDwld {
+  height: 64px;
+  width: 93px;
+  border: 1px solid #a8a8a8;
+}
+
+.finishBtn {
+  height: 64px;
+  width: 293px;
+  background: #b2b2b2;
+  border: 1px solid #a8a8a8;
+  color: white;
+}
+
+.download {
+  height: 150px;
+  width: 576px;
+}
+
+.leftMargin {
+  margin-left: 30px;
+}
+
+.activeValue {
+  height: 64px;
+  width: 512px;
+  border-radius: 0px !important;
+}
+
+.longHeight {
+  height: 500px;
+}
+.margin80 {
+  margin-top: 80px;
+}

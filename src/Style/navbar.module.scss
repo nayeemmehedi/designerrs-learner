@@ -1,0 +1,21 @@
+.bell {
+  margin-left: 20px;
+  color: #cd2026;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover {
+    color: #e23d42;
+  }
+}
+.login {
+  background-color: #cd2026;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 14px;
+  span {
+    margin-right: 8px;
+  }
+}

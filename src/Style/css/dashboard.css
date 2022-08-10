@@ -1,0 +1,102 @@
+
+.dashboard{
+    position: relative;
+}
+.dashboard-box{
+    position: relative;
+    min-height: 450px;
+}
+.skill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.skill .center-circle {
+    position: absolute;
+    top: 60%;    stroke-width: 1.2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .box:first-child {
+    padding: 3rem 1rem;
+    background: var(--box);
+  }
+  
+  .box img {
+    width: 12rem;
+  }
+  
+  .item-heading {
+    font-size: 2.5rem;
+  }
+  
+  /* .skill {
+    position: relative;
+  } */
+  
+  .dashboard .skill svg {
+    width: 15rem;
+    height: 12rem;
+    transform: rotate(278deg);
+    transform-origin: center;
+}
+  
+.dashboard circle {
+    stroke-width: 1rem;
+    fill: none;
+    transition: all 0.5s ease;
+  }
+  
+  .dashboard circle:nth-child(1) {
+    stroke: var(--circle-bg);
+    filter: drop-shadow(0 0 0.001rem var(--white));
+  }
+  
+  .progress {
+    stroke: var(--stroke);
+    position: relative;
+    z-index: 1;
+    transition: var(--transition);
+    stroke-dasharray: var(--stroke-dasharray);
+    stroke-dashoffset: var(--stroke-dasharray);
+    animation: progress var(--animation-time) ease-in forwards;
+    --webkit-stroke-position: inside;
+    /* stroke-linecap: round; */
+  }
+  
+  @keyframes progress {
+    to {
+      stroke-dashoffset: var(--stroke-dashoffset);
+    }
+  }
+  
+  .skill .data-progress {
+    position: absolute;
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box strong {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .card_value{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card_select .form-select {
+    border: 0!important;
+    border-radius: 0 !important;
+    padding: 5px!important;
+    border-left: 5px solid red!important;
+    margin-left: 5px!important;
+    background-color: #F5F5F5!important;
+    font-weight: 800;
+}

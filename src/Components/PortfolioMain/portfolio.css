@@ -1,0 +1,132 @@
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.avatarShare {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.avatarIcon {
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+/* .bgGray {
+  background-color: #ffffff;
+} */
+.bgWhite {
+  background-color: #e5e5e5;
+}
+.iconColor {
+  color: #CD2026 !important ;
+}
+
+.borderRedius {
+  border-radius: 0px !important;
+  height: 50px;
+}
+.borderRedius1 {
+  border-radius: 0px !important;
+}
+
+.form-custom {
+  position: relative;
+}
+.word-counter {
+  position: absolute;
+  bottom: 2px;
+  right: 18px;
+  font-size: 12px;
+}
+
+.textColor1 {
+  color: #868686;
+}
+.textColor2 {
+  background-color: #9b9797;
+}
+.textColor3 {
+  color: #5f5c5c;
+}
+
+.font13 {
+  font-size: 13px;
+}
+.w47{
+  width: 47%;
+}
+
+.imageHide{
+  height: 150px;
+  width: 300px;
+}
+
+.cursorValue{
+  cursor: pointer;
+}
+.weight{
+  font-weight: 400;
+}
+.font12{
+  font-size: 13px;
+}
+
+.margin0{
+  margin: 0;
+}
+
+
+
+.react-calendar__tile {
+  text-align: center;
+  padding: 0.75em 0.5em;
+  border: 1px solid rgba(224, 223, 223, 0.445)!important;
+}
+
+.react-calendar__month-view__weekdays abbr[data-original-title], 
+.react-calendar__month-view__weekdays abbr[title] ,
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__weekdays,
+.react-calendar__month-view__days__day--weekend{
+  text-decoration: none;
+  color:#686868 ;
+  text-transform: unset;
+}
+.react-calendar__tile--now {
+  background: #cf7f8196!important;
+  color: #ffffff ;
+}
+.react-calendar__tile--active {
+  background: #cd2026!important;
+  color: white;
+}
+.react-calendar__month-view__days__day--neighboringMonth{
+  color: #eaeaea;
+}
+.react-calendar__tile--active{
+  background-image: linear-gradient(75deg, #cd2026,#cd2026) ;
+  border-radius: 0px;
+  color: #ffffff ;
+}
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button
+{
+  display: none;
+}
+.react-calendar__navigation__next-button,
+.react-calendar__navigation__prev-button
+{
+  font-size: 2em;
+  opacity: 0.2;
+}
+.react-calendar__tile {
+  padding: 0.7em 0.7em;
+}
+
+

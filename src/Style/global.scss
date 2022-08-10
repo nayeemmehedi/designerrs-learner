@@ -1,0 +1,139 @@
+$global_blue: #0b8fb9;
+$global_blue2: #29b7e2;
+$gray_text: #565656;
+$outline_border: #cc9966;
+$outline_border2: #d1ae8c;
+$outline_boxShadow: rgba(204, 153, 102, 0.25);
+$white: #ffffff;
+
+.text_14 {
+  font-size: 14px !important;
+  color: #1f1f1f !important;
+  &:hover {
+    color: #e23d42 !important;
+  }
+}
+
+.carousel-caption {
+  position: absolute !important;
+  right: 0% !important;
+  bottom: 0 !important;
+  left: 20px !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 0 !important;
+  color: #fff !important;
+  text-align: left !important;
+  font-size: 14px !important;
+  h3 {
+    display: none !important;
+  }
+}
+
+.carousel-item {
+  img {
+    width: 100%;
+    border-radius: 5px !important;
+  }
+}
+
+.red {
+  color: #cd2026;
+  &:hover {
+    color: #e23d42 !important;
+  }
+}
+
+.btn_red {
+  background-color: #cd2026 !important;
+  margin: 0 4px;
+  color: #fff !important;
+  font-size: 13px;
+}
+
+.border_red {
+  border-top: 2px solid #cd2026;
+}
+
+.border_red_left {
+  border-left: 2px solid #cd2026;
+}
+
+.border_vio {
+  border-top: 2px solid #732bcf;
+}
+
+.border_green {
+  border-top: 2px solid #17a033;
+}
+
+.border_orange {
+  border-top: 2px solid #ff842b;
+}
+
+.nav_active {
+  border-bottom: 3px solid #cd2026;
+}
+.rel {
+  position: relative;
+  width: 100%;
+}
+
+.label_class {
+  font-size: 13px;
+  color: $gray_text;
+  font-weight: 500;
+}
+
+.font_12 {
+  font-size: 12px !important;
+}
+.font_13 {
+  font-size: 13px !important;
+}
+
+.no_button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+.invalid_form {
+  color: #be2727;
+  font-size: 12px;
+}
+
+.outline_button {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  border: 1px solid $outline_border !important;
+  color: $outline_border !important;
+  width: 100% !important;
+  background-color: transparent !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  &:hover {
+    border: 1px solid $outline_border !important;
+    color: $white !important;
+    background-color: $outline_border !important;
+  }
+}
+
+// Bootstrap Classes
+.form-control:focus {
+  color: #212529;
+  background-color: $white;
+  border-color: $outline_border2 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem $outline_boxShadow !important;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  border-color: $outline_border2 !important;
+  box-shadow: 0 0 0 0.15rem $outline_boxShadow !important;
+}

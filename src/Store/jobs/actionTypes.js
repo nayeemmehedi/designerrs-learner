@@ -1,0 +1,16 @@
+export const GET_JOB_POST = "GET_JOB_POST";
+export const GET_JOB_POST_DATA = "GET_JOB_POST_DATA";
+export const GET_JOB_POST_API_ERROR = "GET_JOB_POST_API_ERROR";
+
+export const GET_JOB_POST_OPP = "GET_JOB_POST_OPP";
+export const GET_JOB_POST_APP = "GET_JOB_POST_APP";
+export const GET_JOB_POST_SHORT = "GET_JOB_POST_SHORT";
+export const GET_JOB_POST_HIRED = "GET_JOB_POST_HIRED";
+
+export const FILTER_TYPE = "FILTER_TYPE";
+
+
+export const GET_JOB_POST_DETAILS_DATA = "GET_JOB_POST_DETAILS_DATA";
+
+export const FLUSH_JOBS = "FLUSH_JOBS";
+

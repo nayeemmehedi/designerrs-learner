@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1280px) {
+  .height_issue {
+    height: 40px;
+  }
+
+  .pipeFont {
+    font-size: 10px;
+  }
+
+  .boxColor {
+    background: #ffffff;
+  }
+
+  .circleBase {
+    border-radius: 50%;
+  }
+
+  .circle2 {
+    position: relative;
+    width: 144px;
+    height: 144px;
+    background: #ebebeb;
+  }
+  .circle1 {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 114px;
+    height: 114px;
+    background: #ffffff;
+  }
+
+  .side {
+    border-radius: 0px !important;
+  }
+  .marginTopFixed {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .height_issue {
+    height: 40px;
+  }
+
+  .pipeFont {
+    font-size: 10px;
+  }
+
+  .boxColor {
+    background: #ffffff;
+  }
+
+  .circleBase {
+    border-radius: 50%;
+  }
+
+  .circle2 {
+    position: relative;
+    width: 184px;
+    height: 184px;
+    background: #ebebeb;
+  }
+  .circle1 {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 154px;
+    height: 154px;
+    background: #ffffff;
+  }
+
+  .side {
+    border-radius: 0px !important;
+  }
+  .marginTopFixed {
+    margin-top: 45px;
+  }
+}
